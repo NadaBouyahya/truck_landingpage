@@ -1,0 +1,49 @@
+.discount_form{
+    background-color:rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.discount_form input {
+    margin-top: 10px;
+    border-radius: 6px;
+    border-color: silver;
+    border-style: solid;
+    height: 27px;
+    
+    outline: none;
+}
+
+.discount_form .code_button {
+    text-transform: uppercase;
+    background-color:#f95050;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+    
+ }
+
+.discount_form span {
+    color:#f95050;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+  .discount_form p {
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
