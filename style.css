@@ -10,6 +10,10 @@ body{
     background-color: rgb(242, 249, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
+#for-desktop{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+}
 footer {
     background-color: #f95050 ;
     padding-right: 20px;
@@ -29,8 +33,7 @@ h4 {
 
 
 .footer_content ul {
-    list-style: none; 
-
+    list-style: none;
      /*font-size: 15px;*/
 }
 
@@ -58,21 +61,20 @@ h4 {
     color: rgb(242, 249, 255);
     font-size:20px ;
     text-align: left;
-   
 }
  
 
 .copyright {
     background-color:#333333;
     color: rgb(248, 248, 248);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width:100%;
     
 }
 .copyright p{
     font-size: 10px;
-    margin-left: 15px;
-    margin-top: 20px;
+    margin: 20px 50px;
 }
 
 .copyright a {
@@ -81,14 +83,15 @@ h4 {
 }
 
 .copyright ul {
-    float: left;
-    display: inline-flex;
+    display: flex;
     list-style: none;
     margin-left: 6px;
+    justify-content: end;
+    padding-right: 50px;
 }
 
-.copyright li {
-    margin-left: 5px;
+.copyright li { 
+    margin-left: 20px;
     color: rgb(242, 249, 255);
 }
                /* UMAI! logo */
@@ -113,6 +116,7 @@ header{
         padding: 0px 20px;
     }
     #headline h2{
+        padding-top: 50px;
         color: rgb(242, 249, 255);
         font-size: 30px;
     }
@@ -123,41 +127,43 @@ header{
     }
                /* form */
                .discount_form{
+                border-radius: 20px;
+                width: 400px;
                 background-color:rgba(255, 255, 255, 0.3);
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
                 text-align: center;
-                padding-bottom: 50px;
+                padding: 0px 20px 50px 20px;
             }
             
             form{
                 display: flex;
-                justify-content: center;
                 flex-direction: column;
-            
             }
             
             .discount_form input {
                 font-style: italic;
                 margin-top: 10px;
-                border-radius: 10px;
+                border-radius: 7px;
                 border-color: silver;
-                border-style: solid;
-                height: 70px;
+                border: 1.5px solid #d1d1d1;
+                height: 40px;
                 outline: none;
-                font-size: 20px;
+                font-size: 15px;
                 padding-left: 15px;
+                margin-bottom: 20px;
             }
             
             .discount_form .code_button {
+                font-style: normal;
                 text-transform: uppercase;
                 background-color:#f95050;
                 border-style: none;
                 color: rgb(242, 249, 255);
                 font-weight: bold;
-                height: 80px;
-                font-size: 20px;
+                height: 50px;
+                font-size: 15px;
             
             }
             
@@ -182,13 +188,17 @@ header{
                /* location block */
 
     .location-bar{
-        padding: 0px 10px;
         border-radius: 30px 30px 0px 0px;
         background-color: #f95050;
         color: rgb(242, 249, 255);
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         text-align: center;
+    }
+    #truck{
+        display: grid;
+        justify-content: end;
+        align-items: end;
     }
     .location-bar h2{
     font-size: 30px;
@@ -203,14 +213,22 @@ header{
     main{
     padding: 0px 20px;
     }
+    #imgs{
+        width: 100%;
+        grid-gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center; 
+        
+    }
 
     #imgs img{
-        border-radius: 20px;
-        width: 150px;
+        border-radius: 10px;
+        width: 200px;
     }
     #img1{
     box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
-    padding-top: 25px;
+    padding-top: 30px;
     }
     #img2{
         box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
@@ -220,13 +238,19 @@ header{
         box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
     padding-top: 30px;
     }
-    
+    #menu{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center; 
+    }
     .menu-titles{
         color: #d64747;
         font-weight: bold;
         
     }
     main h1{
+        margin: 50px;
         text-transform: uppercase;
         color: #f95050;
         text-align: center;
@@ -238,7 +262,8 @@ header{
         margin-bottom: 80px;
     }
     #main-items{
-        display: flex;
+     
+
     }
 }
 
@@ -474,6 +499,9 @@ header{
     .location-bar h2{
     font-size: 30px;
     text-transform: uppercase;
+    }
+    #truck{
+        display: none;
     }
     .location-bar h3{
         font-size: 25px;
