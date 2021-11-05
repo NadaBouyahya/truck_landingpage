@@ -1,3 +1,288 @@
+
+                /* desktop */
+
+@media (min-width:1001px){
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 249, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    background-color: #f95050 ;
+    padding-right: 20px;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(242, 249, 255);
+}
+
+
+
+.footer_content ul {
+    list-style: none; 
+
+     /*font-size: 15px;*/
+}
+
+.FAQ_icons i {
+    /*margin-top: 10px;*/
+    font-size: 30px;
+}
+
+.write {
+    margin-left: 9px;
+    padding-top: 5px;
+}
+
+.message {
+    margin-top: 50px;
+}
+
+.place {
+    margin-top: 60px;
+}
+
+
+.steps li {
+    margin-top: 25px;
+    color: rgb(242, 249, 255);
+    font-size:20px ;
+    text-align: left;
+   
+}
+ 
+
+.copyright {
+    background-color:#333333;
+    color: rgb(248, 248, 248);
+    display: flex;
+    width:100%;
+    
+}
+.copyright p{
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.copyright a {
+        text-decoration: none;
+        color:#ff7070;
+}
+
+.copyright ul {
+    float: left;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 6px;
+}
+
+.copyright li {
+    margin-left: 5px;
+    color: rgb(242, 249, 255);
+}
+               /* UMAI! logo */
+    .logo{
+    display: flex;
+    justify-content: center;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    height: 100px;
+    padding-top: 10px;
+    }
+
+            /* headline and background */
+
+header{
+    text-align: center;
+    background-image: url("background.png");
+        background-size: 2300px;
+        background-position-x: -100px;
+        background-position-y: -100px;
+}
+    #headline{
+        padding: 0px 20px;
+    }
+    #headline h2{
+        color: rgb(242, 249, 255);
+        font-size: 30px;
+    }
+    #headline p{
+        -webkit-text-stroke: 4px rgb(129, 0, 0);
+        font-size: 150px;
+        color: #f95050;
+    }
+               /* form */
+               .discount_form{
+                background-color:rgba(255, 255, 255, 0.3);
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                padding-bottom: 50px;
+            }
+            
+            form{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            
+            }
+            
+            .discount_form input {
+                font-style: italic;
+                margin-top: 10px;
+                border-radius: 10px;
+                border-color: silver;
+                border-style: solid;
+                height: 70px;
+                outline: none;
+                font-size: 20px;
+                padding-left: 15px;
+            }
+            
+            .discount_form .code_button {
+                text-transform: uppercase;
+                background-color:#f95050;
+                border-style: none;
+                color: rgb(242, 249, 255);
+                font-weight: bold;
+                height: 80px;
+                font-size: 20px;
+            
+            }
+            
+            .code_button:hover {
+                background-color:#c73c3c;
+            }
+            
+            .discount_form span {
+                color:#f95050;
+                text-transform: uppercase;
+                margin-top: 20px;
+                font-weight: bolder;
+                font-size: 40px;
+            }
+              .discount_form p {
+                  color: rgba(0, 0, 0, 0.7);
+                  font-size: 20px;
+                  font-family: Arial, Helvetica, sans-serif;
+                }
+            
+            
+               /* location block */
+
+    .location-bar{
+        padding: 0px 10px;
+        border-radius: 30px 30px 0px 0px;
+        background-color: #f95050;
+        color: rgb(242, 249, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+    .location-bar h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    }
+    .location-bar h3{
+        font-size: 25px;
+    }
+    
+                 /* menu*/
+
+    main{
+    padding: 0px 20px;
+    }
+
+    #imgs img{
+        border-radius: 20px;
+        width: 150px;
+    }
+    #img1{
+    box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
+    padding-top: 25px;
+    }
+    #img2{
+        box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
+    padding-top: 30px;
+    }
+    #img3{
+        box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
+    padding-top: 30px;
+    }
+    
+    .menu-titles{
+        color: #d64747;
+        font-weight: bold;
+        
+    }
+    main h1{
+        text-transform: uppercase;
+        color: #f95050;
+        text-align: center;
+        font-size: 30px;
+    }
+    .menu-content ul{
+        list-style: none;
+        font-size: 22px;
+        margin-bottom: 80px;
+    }
+    #main-items{
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1000px) {
+    
+
 body{
     margin: 0;
     padding: 0;
@@ -237,5 +522,5 @@ header{
         display: flex;
     }
 
-
+}
 
