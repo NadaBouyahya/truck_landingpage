@@ -1,3 +1,317 @@
+
+                /* desktop */
+
+@media (min-width:1001px){
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 249, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#for-desktop{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+}
+footer {
+    background-color: #f95050 ;
+    padding-right: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(242, 249, 255);
+}
+
+
+
+.footer_content ul {
+    list-style: none;
+     /*font-size: 15px;*/
+}
+
+.write {
+    margin-left: 9px;
+    padding-top: 5px;
+}
+
+.message {
+    margin-top: 50px;
+}
+
+.place {
+    margin-top: 60px;
+}
+
+.steps{
+
+}
+
+.steps li {
+    padding-bottom: 37px;
+    color: rgb(242, 249, 255);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+ 
+
+.copyright {
+    background-color:#333333;
+    color: rgb(248, 248, 248);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+    
+}
+.copyright p{
+    font-size: 10px;
+    margin: 20px 50px;
+}
+
+.copyright a {
+        text-decoration: none;
+        color:#ff7070;
+}
+
+.copyright ul {
+    display: flex;
+    list-style: none;
+    margin-left: 6px;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.copyright li { 
+    margin-left: 20px;
+    color: rgb(242, 249, 255);
+}
+               /* UMAI! logo */
+    .logo{
+    display: flex;
+    justify-content: center;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    height: 100px;
+    padding-top: 10px;
+    }
+
+            /* headline and background */
+
+header{
+    text-align: center;
+    background-image: url("background.png");
+        background-size: 2300px;
+        background-position-x: -100px;
+        background-position-y: -100px;
+}
+    #headline{
+        padding: 0px 20px;
+    }
+    #headline h2{
+        padding-top: 50px;
+        color: rgb(242, 249, 255);
+        font-size: 30px;
+    }
+    #headline p{
+        -webkit-text-stroke: 4px rgb(129, 0, 0);
+        font-size: 150px;
+        color: #f95050;
+    }
+               /* form */
+               .discount_form{       
+                border-radius: 20px;
+                width: 400px;
+                background-color:rgba(255, 255, 255, 0.3);
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                text-align: center;
+                padding: 0px 20px 50px 20px;
+            }
+            input::placeholder{
+                color: rgb(124, 124, 124);
+                font-style: italic;
+            }
+            
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .discount_form input {
+                margin-top: 10px;
+                border-radius: 7px;;
+                border: 1.5px solid #d1d1d1;
+                background-color: rgba(255, 255, 255, 0.658);
+                height: 40px;
+                outline: none;
+                font-size: 15px;
+                padding-left: 15px;
+                margin-bottom: 20px;
+            }
+            
+            .discount_form .code_button {
+                font-style: normal;
+                text-transform: uppercase;
+                background-color:#f95050;
+                border-style: none;
+                color: rgb(242, 249, 255);
+                font-weight: bold;
+                height: 50px;
+                font-size: 15px;
+            
+            }
+            
+            .code_button:hover {
+                background-color:#c73c3c;
+            }
+            
+            .discount_form span {
+                color:#f95050;
+                text-transform: uppercase;
+                margin-top: 20px;
+                font-weight: bolder;
+                font-size: 40px;
+            }
+              .discount_form p {
+                color: white;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+            
+            
+               /* location block */
+
+    .location-bar{
+        border-radius: 30px 30px 0px 0px;
+        background-color: #f95050;
+        color: rgb(242, 249, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+    #truck{
+        display: grid;
+        justify-content: end;
+        align-items: end;
+    }
+    .location-bar h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    }
+    .location-bar h3{
+        font-size: 25px;
+    }
+    
+                 /* menu*/
+
+    main{
+    padding: 0px 20px;
+    }
+    #imgs{
+        width: 100%;
+        grid-gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center; 
+        
+    }
+
+    #imgs img{
+        border-radius: 10px;
+        width: 200px;
+    }
+    #img1{
+    box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
+    padding-top: 30px;
+    }
+    #img2{
+        box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
+    padding-top: 30px;
+    }
+    #img3{
+        box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
+    padding-top: 30px;
+    }
+    #menu{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center; 
+    }
+    .menu-titles{
+        color: #d64747;
+        font-weight: bold;
+        
+    }
+    main h1{
+        margin: 50px;
+        text-transform: uppercase;
+        color: #f95050;
+        text-align: center;
+        font-size: 30px;
+    }
+    .menu-content ul{
+        text-align: left;
+        font-size: 22px;
+        margin-bottom: 80px;
+        margin-right: 180px;
+    }
+    #main-items{
+     
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1000px) {
+    
+
 body{
     margin: 0;
     padding: 0;
@@ -12,32 +326,41 @@ body{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0px 50px;
+    padding: 50px 20px 0px 20px;
+}
+input::placeholder{
+    color: rgb(124, 124, 124);
+    font-style: italic;
 }
 
 .discount_form input {
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 0.658);
     margin-top: 10px;
-    border-radius: 6px;
-    border-color: silver;
+    border-radius: 10px;
+    border-color: rgb(212, 212, 212);
     border-style: solid;
-    height: 27px;
+    height: 70px;
     outline: none;
+    font-size: 20px;
+    padding-left: 15px;
 }
 
 .discount_form .code_button {
     text-transform: uppercase;
     background-color:#f95050;
     border-style: none;
-    color: white;
+    color: rgb(242, 249, 255);
     font-weight: bold;
-    height: 40px;
+    height: 80px;
+    font-size: 20px;
 
 }
 
@@ -50,7 +373,7 @@ form{
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
 }
   .discount_form p {
       color: rgba(0, 0, 0, 0.7);
@@ -70,15 +393,14 @@ footer {
 
 h4 {
     text-align: center;
-    font-size: 20px;
-    color: white;
+    font-size: 30px;
+    color: rgb(242, 249, 255);
 }
 
 
 
 .footer_content ul {
     list-style: none; 
-    padding-bottom: 20px;
 
      /*font-size: 15px;*/
 }
@@ -89,38 +411,38 @@ h4 {
 }
 
 .write {
-    margin-left: 4px;
+    margin-left: 9px;
+    padding-top: 5px;
 }
 
 .message {
-    margin-top: 14px;
+    margin-top: 50px;
 }
 
 .place {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 
 .steps li {
     margin-top: 25px;
-    color: white;
-    font-size:13px ;
+    color: rgb(242, 249, 255);
+    font-size:20px ;
     text-align: left;
    
 }
  
 
 .copyright {
-    background-color:#7E7878;
+    background-color:#333333;
     color: black;
-    display: inline-block;
+    display: flex;
     width:100%;
     
 }
 .copyright p{
     display: inline-block;
-    font-size: 12px;
-    float: left;
+    font-size: 10px;
     margin-left: 15px;
     margin-top: 17px;
 }
@@ -139,63 +461,70 @@ h4 {
 
 .copyright li {
     margin-left: 5px;
-    color: white;
+    color: rgb(242, 249, 255);
 }
                /* UMAI! logo */
     .logo{
     display: flex;
     justify-content: center;
     background-color: hsla(0, 0%, 100%, 0.3);
-    height: 200px;
-    padding-top: 70px;
+    height: 100px;
+    padding-top: 10px;
     }
 
             /* headline and background */
 
-    .navbar{
-        background-image: url("background.png");
+header{
+    text-align: center;
+    background-image: url("background.png");
         background-size: 2300px;
         background-position-x: -100px;
         background-position-y: -100px;
-        text-align: center;
+}
+    #headline{
+        padding: 0px 20px;
     }
     #headline h2{
-        color: white;
-        font-size: 55px;
+        color: rgb(242, 249, 255);
+        font-size: 30px;
     }
     #headline p{
-        -webkit-text-stroke: 8px rgb(129, 0, 0);
-        font-size: 200px;
+        -webkit-text-stroke: 4px rgb(129, 0, 0);
+        font-size: 150px;
         color: #f95050;
     }
 
                /* location block */
 
     .location-bar{
-        padding: 25px 0px;
+        padding: 0px 10px;
         border-radius: 30px 30px 0px 0px;
         background-color: #f95050;
-        color: white;
+        color: rgb(242, 249, 255);
         display: grid;
         grid-template-columns: 1fr 1fr;
         text-align: center;
     }
     .location-bar h2{
-    font-size: 50px;
+    font-size: 30px;
     text-transform: uppercase;
     }
+    #truck{
+        display: none;
+    }
     .location-bar h3{
-        font-size: 20px;
+        font-size: 25px;
     }
     
                  /* menu*/
 
     main{
-        padding: 70px;
+    padding: 0px 20px;
     }
+
     #imgs img{
-        border: 10px solid #f95050;
         border-radius: 20px;
+        width: 150px;
     }
     #img1{
     box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
@@ -203,11 +532,11 @@ h4 {
     }
     #img2{
         box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
-    padding-top: 105px;
+    padding-top: 30px;
     }
     #img3{
         box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
-    padding-top: 105px;
+    padding-top: 30px;
     }
     
     .menu-titles{
@@ -219,17 +548,16 @@ h4 {
         text-transform: uppercase;
         color: #f95050;
         text-align: center;
-        padding-bottom: 90px;
-        font-size: 90px;
+        font-size: 30px;
     }
     .menu-content ul{
         list-style: none;
-        font-size: 54px;
-        margin-bottom: 180px;
+        font-size: 22px;
+        margin-bottom: 80px;
     }
     #main-items{
         display: flex;
     }
 
-
+}
 
