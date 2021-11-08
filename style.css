@@ -51,10 +51,6 @@ h4 {
     margin-top: 60px;
 }
 
-.steps{
-
-}
-
 .steps li {
     padding-bottom: 37px;
     color: rgb(242, 249, 255);
@@ -115,15 +111,53 @@ header{
     #headline{
         padding: 0px 20px;
     }
+    #headline img{
+        margin: 20px;
+    }
     #headline h2{
         padding-top: 50px;
         color: rgb(242, 249, 255);
         font-size: 30px;
     }
     #headline p{
+        margin: 50px;
         -webkit-text-stroke: 4px rgb(129, 0, 0);
         font-size: 150px;
         color: #f95050;
+    }
+    #headline h3{
+        color: white;
+
+    }
+    #city{
+        display: flex;
+        font-size: 25px;
+    }
+    #city h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #city1{
+        background-size: 300px;
+        background-position-y: center;
+        background-position-x: center;
+        background-image: url("tanger-truck.jpg");
+        width: 300px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+    #city2{
+        background-size: 300px;
+        background-image: url("tetouan-truck.jpg");
+        background-position-x: center;
+        background-position-y: center;
+        width: 300px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 15px;
+        
     }
                /* form */
                .discount_form{       
@@ -227,11 +261,11 @@ header{
 
     #imgs img{
         border-radius: 10px;
-        width: 200px;
+        width: 100%;
     }
     #img1{
     box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
-    padding-top: 30px;
+    padding-top: 35px;
     }
     #img2{
         box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
@@ -260,14 +294,11 @@ header{
         font-size: 30px;
     }
     .menu-content ul{
+        list-style-type: "🍙  ";
         text-align: left;
         font-size: 22px;
         margin-bottom: 80px;
         margin-right: 180px;
-    }
-    #main-items{
-     
-
     }
 }
 
@@ -435,7 +466,7 @@ h4 {
 
 .copyright {
     background-color:#333333;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     width:100%;
     
@@ -485,6 +516,7 @@ header{
         padding: 0px 20px;
     }
     #headline h2{
+        
         color: rgb(242, 249, 255);
         font-size: 30px;
     }
@@ -524,9 +556,10 @@ header{
 
     #imgs img{
         border-radius: 20px;
-        width: 150px;
+        width: 100%;
     }
     #img1{
+
     box-shadow: 0 40px 40px -20px rgb(26 77 160 / 30%);
     padding-top: 25px;
     }
@@ -552,11 +585,13 @@ header{
     }
     .menu-content ul{
         list-style: none;
-        font-size: 22px;
-        margin-bottom: 80px;
+        font-size: 20px;
+        margin-bottom: 30px;
+        height: 100%;
     }
     #main-items{
         display: flex;
+        height: auto;
     }
 
 }
