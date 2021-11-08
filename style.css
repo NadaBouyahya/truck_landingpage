@@ -38,10 +38,6 @@ h4 {
      /*font-size: 15px;*/
 }
 
-.FAQ_icons i {
-padding-bottom: 36px;
-}
-
 .write {
     margin-left: 9px;
     padding-top: 5px;
@@ -60,10 +56,11 @@ padding-bottom: 36px;
 }
 
 .steps li {
-    padding-bottom: 56px;
+    padding-bottom: 37px;
     color: rgb(242, 249, 255);
-    font-size:20px ;
+    font-size: 20px;
     text-align: left;
+    margin-left: 50px;
 }
  
 
@@ -148,9 +145,9 @@ header{
             .discount_form input {
                 font-style: italic;
                 margin-top: 10px;
-                border-radius: 7px;
-                border-color: silver;
+                border-radius: 7px;;
                 border: 1.5px solid #d1d1d1;
+                background-color: rgba(255, 255, 255, 0.616);
                 height: 40px;
                 outline: none;
                 font-size: 15px;
@@ -182,7 +179,7 @@ header{
                 font-size: 40px;
             }
               .discount_form p {
-                  color: rgba(0, 0, 0, 0.7);
+                color: white;
                   font-size: 20px;
                   font-family: Arial, Helvetica, sans-serif;
                 }
@@ -260,9 +257,10 @@ header{
         font-size: 30px;
     }
     .menu-content ul{
-        list-style: none;
+        text-align: left;
         font-size: 22px;
         margin-bottom: 80px;
+        margin-right: 180px;
     }
     #main-items{
      
@@ -334,12 +332,17 @@ form{
     flex-direction: column;
     padding: 50px 20px 0px 20px;
 }
+input::placeholder{
+    color: rgb(124, 124, 124);
+    font-style: italic;
+}
 
 .discount_form input {
-    font-style: italic;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 0.658);
     margin-top: 10px;
     border-radius: 10px;
-    border-color: silver;
+    border-color: rgb(212, 212, 212);
     border-style: solid;
     height: 70px;
     outline: none;
@@ -428,7 +431,7 @@ h4 {
  
 
 .copyright {
-    background-color:#7E7878;
+    background-color:#333333;
     color: black;
     display: flex;
     width:100%;
