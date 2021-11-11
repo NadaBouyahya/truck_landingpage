@@ -284,6 +284,7 @@ header{
     .menu-titles{
         color: #d64747;
         font-weight: bold;
+        list-style: none;
         
     }
     main h1{
@@ -294,7 +295,7 @@ header{
         font-size: 30px;
     }
     .menu-content ul{
-        list-style-type: "🍙  ";
+        list-style-type: "🍚  ";
         text-align: left;
         font-size: 22px;
         margin-bottom: 80px;
